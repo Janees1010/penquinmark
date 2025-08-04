@@ -114,7 +114,7 @@ export default function Navigation() {
             {navLinks.map((link) => (
               <button
                 key={link.href}
-                onClick={() => scrollToSection(link.href)}
+                onClick={() => router.push(link.href)}
                 className="block w-full text-left px-3 py-2 text-base font-medium text-brand-primary hover:text-brand-highlight hover:bg-brand-background/50 rounded-md transition-colors duration-200"
               >
                 {link.label}
