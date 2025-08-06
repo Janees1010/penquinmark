@@ -38,7 +38,7 @@ export default function HeroSection() {
           <Button 
             size="lg" 
             className="bg-brand-highlight hover:bg-brand-highlight/90 text-white px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
-            onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => document.getElementById('footer')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Get Started Today
           </Button>
