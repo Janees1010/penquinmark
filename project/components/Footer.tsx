@@ -58,7 +58,7 @@ export default function Footer() {
                 Ready to transform your Amazon business?
               </p>
               <Button
-                className="bg-brand-highlight hover:bg-brand-highlight/90 text-white w-full"
+                className="bg-yellow-400 hover:bg-yellow-500 text-white px-8 py-4 text-lg font-semibold rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg"
                 onClick={() =>
                   document
                     .getElementById("home")

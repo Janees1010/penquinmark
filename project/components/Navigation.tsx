@@ -60,7 +60,7 @@ export default function Navigation() {
               <button
                 key={link.href}
                 onClick={() => router.push(link.href)}
-                className={`px-3 py-2 text-sm font-medium transition-colors duration-300 hover:text-brand-highlight ${
+                className={`px-3 py-2 text-sm font-medium transition-colors duration-300 hover:text-yellow-500 ${
                   isScrolled ? 'text-brand-primary' : 'text-white'
                 }`}
               >

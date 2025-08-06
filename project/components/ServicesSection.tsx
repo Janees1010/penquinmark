@@ -58,13 +58,13 @@ export default function ServicesSection() {
         <div className={`text-center mb-16 transition-all duration-1000 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
         }`}>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-brand-primary mb-6">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Our Services
           </h2>
           
-          <div className="w-24 h-1 bg-brand-highlight mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-yellow-500 mx-auto mb-8"></div>
           
-          <p className="text-lg text-brand-accent max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
             Comprehensive Amazon seller services designed to maximize your success on the world's largest marketplace.
           </p>
         </div>
@@ -82,17 +82,17 @@ export default function ServicesSection() {
                 }`}
                 style={{ transitionDelay: `${index * 200}ms` }}
               >
-                <Card className="h-full hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-gray-200 group">
+                <Card className="h-full hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border-gray-200 group bg-white">
                   <CardHeader className="text-center pb-4">
-                    <div className="mx-auto w-16 h-16 bg-brand-highlight/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-brand-highlight/20 transition-colors duration-300">
-                      <Icon className="w-8 h-8 text-brand-highlight" />
+                    <div className="mx-auto w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-4 group-hover:bg-yellow-200 transition-colors duration-300">
+                      <Icon className="w-8 h-8 text-yellow-500" />
                     </div>
-                    <CardTitle className="text-xl text-brand-primary group-hover:text-brand-highlight transition-colors duration-300">
+                    <CardTitle className="text-xl text-gray-900 group-hover:text-yellow-500 transition-colors duration-300">
                       {service.title}
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <CardDescription className="text-brand-accent leading-relaxed">
+                    <CardDescription className="text-gray-600 leading-relaxed">
                       {service.description}
                     </CardDescription>
                   </CardContent>

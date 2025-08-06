@@ -63,7 +63,7 @@ export default function TestimonialsSection() {
             What Our Clients Say
           </h2>
           
-          <div className="w-24 h-1 bg-brand-highlight mx-auto mb-8"></div>
+          <div className="w-24 h-1  bg-yellow-500 mx-auto mb-8"></div>
           
           <p className="text-lg text-gray-200 max-w-2xl mx-auto leading-relaxed">
             Don't just take our word for it. Here's what our successful Amazon sellers have to say about our services.

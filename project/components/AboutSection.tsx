@@ -37,7 +37,7 @@ export default function AboutSection() {
             About Amazon Central Services
           </h2>
           
-          <div className="w-24 h-1 bg-brand-highlight mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-yellow-500 mx-auto mb-8"></div>
           
           <div className="space-y-6 text-lg text-brand-accent leading-relaxed">
             <p>
@@ -55,15 +55,15 @@ export default function AboutSection() {
           
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="text-4xl font-bold text-brand-highlight mb-2">500+</div>
+              <div className="text-4xl font-bold  text-yellow-500 mb-2">500+</div>
               <div className="text-brand-accent">Successful Clients</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-brand-highlight mb-2">5+</div>
+              <div className="text-4xl font-bold text-yellow-500 mb-2">5+</div>
               <div className="text-brand-accent">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl font-bold text-brand-highlight mb-2">150%</div>
+              <div className="text-4xl font-bold  text-yellow-500 mb-2">150%</div>
               <div className="text-brand-accent">Average Revenue Increase</div>
             </div>
           </div>
